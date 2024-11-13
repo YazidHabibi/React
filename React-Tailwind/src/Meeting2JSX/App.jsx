@@ -1,6 +1,6 @@
 export default function App() {
   const title = "Coba React Praktek Soal 2";
-  const paragraph  = "Lorem ipsum dolor sit  amet consectetur adipisicing elit. Voluptate, eveniet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, eveniet!";
+  const paragraph  = "Loremmnmnm ipsum dolor sit  amet consectetur adipisicing elit. Voluptate, eveniet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, eveniet!";
     const css = {
       paragraph : {
         color : "red"
@@ -10,7 +10,7 @@ export default function App() {
     };
 
 
-  
+  // Pengambilan Objek
   return ( 
     <>
     <p></p>
