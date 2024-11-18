@@ -1,11 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import ChildComponent from './Meeting3JSX/testing'
-import Property from './Meeting3JSX/Props'
+import Greeting from './Meeting3JSX/S1Props.jsx'
 // import App from "./Meeting2JSX/App"
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Property />
+    <Greeting />
   </StrictMode>,
 )
