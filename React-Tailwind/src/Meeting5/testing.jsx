@@ -11,19 +11,19 @@
 
 // Termary operator
 
-// function Test ({name, Benar}) {
-//     // Termary Operator / nested termary
+function Test ({name, Benar}) {
+    // Termary Operator / nested termary
     
-//     return <li>
-//         {Benar
-//         ? name  + ' true'
-//         : name === 'Berlyva'
-//             ? 'my name is ' + name
-//             : name + ' false'
-//             }
-//         </li>
+    return <li>
+        {Benar
+        ? name  + ' true'
+        : name === 'Berlyva'
+            ? 'my name is ' + name
+            : name + ' false'
+            }
+        </li>
 
-// }
+}
 
 // Logical and
 
