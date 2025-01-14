@@ -5,7 +5,7 @@ export default function CountLogger () {
 
     useEffect(() => {
         console.log(`Count berubah Menjadi ${count}`);
-    }, [count])
+    }, [count,text])
 
     return(
         <div>

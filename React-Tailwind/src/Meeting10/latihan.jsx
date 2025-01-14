@@ -28,20 +28,22 @@ export default function Withdependency () {
     useEffect(() => {
         console.log(`Count Berubah :  ${count}`);
         console.log(`text Berubah :  ${text}`);
-    }, [count, text ]);
-
-
+    }, [count,text]);
+ 
 
     return(
         <div>
             <p>Count : {count}</p>
+            <p className="border ">Nama anda adalah : {text}</p>
             <button onClick={() => setCount(count + 1)}>Tambah</button>
             <br />
             <input type="text"
             value={text}
             onChange={(e) => setText(e.target.value)}
             placeholder="Masukkan Text"
+            className="border rounded-md"
             />
+         
         </div>
     )
 }
