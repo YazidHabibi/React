@@ -6,10 +6,13 @@ import './index.css'
 // import { StatusMode } from './Meeting11/soal1'
 // import Registration from './Meeting4/Layout/ADRegistration'
 // import Test from './Meeting5/testing'
-import Mode from './Meeting11/soal1(2)'
+// import Mode from './Meeting11/soal1(2)'
+// import Pages from './Meeting12/soal1,2,3'
+// import Halaman from './Meeting12/soal4'
+import Pages from './Meeting12/soal1,2,3'
 // import TaskStatus from './Meeting11/soal2(2)'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Mode />
+    <Pages />
   </StrictMode>,
 )
