@@ -20,7 +20,7 @@ function SecondPlace () {
 
 const router = createBrowserRouter ([
     {
-        path: "/  im",
+        path: "/  im",  
         element: <CobaRouter />
         
     },

@@ -9,10 +9,14 @@ import './index.css'
 // import Mode from './Meeting11/soal1(2)'
 // import Pages from './Meeting12/soal1,2,3'
 // import Halaman from './Meeting12/soal4'
-import Pages from './Meeting12/soal1,2,3'
+// import Pages from './Meeting12/soal1,2,3'
+// import CobaAxios from './Meeting13/latihan'
+// import Product from './Meeting9/soal1'
+import Axios from './Meeting13/Get/tugas2'
+// import Cuaca from './Meeting13/Get/tugas1'
 // import TaskStatus from './Meeting11/soal2(2)'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Pages />
+    <Axios />
   </StrictMode>,
 )

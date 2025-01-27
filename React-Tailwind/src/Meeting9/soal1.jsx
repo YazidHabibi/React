@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { products } from "./Product";
 
-export default function Product({ product }) { 
+export default function Product({  }) { 
     const [quantity, setQuantity] = useState(0);
 
     const handleAdd =  () => {
