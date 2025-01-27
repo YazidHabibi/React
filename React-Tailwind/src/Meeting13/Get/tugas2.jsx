@@ -18,7 +18,7 @@ export default function Axios() {
         setQuantity(initialQuantities);
       })
       .catch((error) => {
-        console.error("Error Fetching Data", error);
+        console.error("Error Fetching Data",error);
       });
   }, []);
 
