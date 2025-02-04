@@ -1,5 +1,5 @@
 import  {createBrowserRouter, Link, RouterProvider, useParams} from "react-router-dom";
-import { useState, useEffect,  } from "react";
+import { useState, useEffect, } from "react";
 import  axios  from "axios";
 
 function BacaBuku () {
@@ -79,7 +79,7 @@ function BacaBuku () {
 )
 }
 
-      function Detail() {
+      function DetailPrdct() {
         const { id } = useParams();
         const [product, setProduct] = useState(null);
       
@@ -123,7 +123,7 @@ const router = createBrowserRouter([
     },
     {
         path: "/:id",
-        element: <Detail/>
+        element: <DetailPrdct/>
     }
  ]) ;
 
