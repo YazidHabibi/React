@@ -12,11 +12,13 @@ import './index.css'
 // import Pages from './Meeting12/soal1,2,3'
 // import CobaAxios from './Meeting13/latihan'
 // import Product from './Meeting9/soal1'
-import Axios from './Meeting13/Get/tugas2'
+// import Axios from './Meeting13/Get/tugas2'
+// import CobauseParams from './Meeting14/latihan'
+import Buku from './Meeting14/soal2'
 // import Cuaca from './Meeting13/Get/tugas1'
 // import TaskStatus from './Meeting11/soal2(2)'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Axios />
+    <Buku />
   </StrictMode>,
 )
