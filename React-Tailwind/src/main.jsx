@@ -15,10 +15,11 @@ import './index.css'
 // import Axios from './Meeting13/Get/tugas2'
 // import CobauseParams from './Meeting14/latihan'
 import Buku from './Meeting14/soal2'
+import { LoginForm } from './Meeting15/soal1'
 // import Cuaca from './Meeting13/Get/tugas1'
 // import TaskStatus from './Meeting11/soal2(2)'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Buku />
+    <LoginForm/>
   </StrictMode>,
 )
