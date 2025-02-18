@@ -2,7 +2,7 @@ import  {createBrowserRouter, Link, RouterProvider, useParams} from "react-route
 import { useState, useEffect, } from "react";
 import  axios  from "axios";
 
-function BacaBuku () {
+export function BacaBuku () {
   const [quantity,setQuantity] = useState(0);
   const [produk, setProduk] = useState([]);
   useEffect(() => {

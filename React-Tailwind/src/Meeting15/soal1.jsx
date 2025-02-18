@@ -59,8 +59,6 @@ export const SimpleUserForm = () => {
 }
 
 
-import { useState } from "react";
-
 export const LoginForm = () => {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
@@ -78,7 +76,7 @@ export const LoginForm = () => {
                 setResponse(respone.data);
                 setError(null);
             })
-            .catch((err) => {
+            .catch((error) => {
                 setError(error.message);
                 setResponse(null);
             });
@@ -92,7 +90,7 @@ export const LoginForm = () => {
                     <input
                         type="text"
                         id="name"
-                        onChange={(e) => setName(e.target.value)}
+                        onChange={(e) => setUsername(e.target.value)}
                     />
                 </div>
                 <div>
