@@ -79,7 +79,7 @@ function BacaBuku () {
 )
 }
 
-      function DetailPrdct() {
+      export function DetailPrdct() {
         const { id } = useParams();
         const [product, setProduct] = useState(null);
       
@@ -106,7 +106,7 @@ function BacaBuku () {
                 <p className="text-gray-600 mb-4">{product.description}</p>
                 <p className="text-gray-500 mb-4">Category: {product.category}</p>
                 <div className="flex gap-4">
-                  <Link to={`/`} className="px-6 py-2 bg-gray-200 text-gray-700 rounded-lg shadow hover:bg-gray-300">Back to Home</Link>
+                  <Link to={`/product`} className="px-6 py-2 bg-gray-200 text-gray-700 rounded-lg shadow hover:bg-gray-300">Back to Home</Link>
                   <button className="px-6 py-2 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600">Add to Bag</button>
                 </div>
                 <p className="text-gray-500 mt-6 text-sm">Free shipping on all continental US orders.</p>
